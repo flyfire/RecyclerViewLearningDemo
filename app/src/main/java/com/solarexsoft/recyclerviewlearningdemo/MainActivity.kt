@@ -100,5 +100,7 @@ class MainActivity : AppCompatActivity() {
         })
         rb2.into(iv3)
         rb2.into(iv4)
+        iv5.load("content://media/external/images/media/61673")
+        iv6.load("content://media/external/images/media/61673")
     }
 }
