@@ -15,11 +15,6 @@
         android:theme="@style/AppTheme"
         tools:targetApi="n">
         <activity android:name=".MainActivityBackup">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".MainActivity" >

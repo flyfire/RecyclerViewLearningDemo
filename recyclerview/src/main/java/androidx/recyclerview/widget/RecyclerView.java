@@ -17,11 +17,6 @@
 
 package androidx.recyclerview.widget;
 
-import static androidx.annotation.RestrictTo.Scope.LIBRARY;
-import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP_PREFIX;
-import static androidx.core.view.ViewCompat.TYPE_NON_TOUCH;
-import static androidx.core.view.ViewCompat.TYPE_TOUCH;
-
 import android.animation.LayoutTransition;
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -81,8 +76,9 @@ import androidx.core.view.accessibility.AccessibilityEventCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import androidx.core.widget.EdgeEffectCompat;
 import androidx.customview.view.AbsSavedState;
-import androidx.recyclerview.R;
 import androidx.recyclerview.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
+
+import com.solarexsoft.recyclerview.R;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -92,6 +88,11 @@ import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import static androidx.annotation.RestrictTo.Scope.LIBRARY;
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP_PREFIX;
+import static androidx.core.view.ViewCompat.TYPE_NON_TOUCH;
+import static androidx.core.view.ViewCompat.TYPE_TOUCH;
 
 /**
  * A flexible view for providing a limited window into a large data set.

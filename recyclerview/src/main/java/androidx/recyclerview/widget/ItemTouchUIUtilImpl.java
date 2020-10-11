@@ -21,7 +21,8 @@ import android.os.Build;
 import android.view.View;
 
 import androidx.core.view.ViewCompat;
-import androidx.recyclerview.R;
+
+import com.solarexsoft.recyclerview.R;
 
 /**
  * Package private class to keep implementations. Putting them inside ItemTouchUIUtil makes them
