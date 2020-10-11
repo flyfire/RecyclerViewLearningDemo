@@ -14,8 +14,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="n">
-        <activity android:name=".MainActivityBackup">
-        </activity>
         <activity android:name=".RecyclerViewActivity" />
         <activity android:name=".MainActivity" >
             <intent-filter>
