@@ -22,7 +22,8 @@ import androidx.annotation.CallSuper;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.os.CancellationSignal;
-import androidx.fragment.R;
+
+import com.solarexsoft.fragment.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

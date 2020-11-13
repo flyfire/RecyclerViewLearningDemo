@@ -30,9 +30,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.os.CancellationSignal;
 import androidx.core.view.ViewCompat;
-import androidx.fragment.R;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.ViewModelStoreOwner;
+
+import com.solarexsoft.fragment.R;
 
 class FragmentStateManager {
     private static final String TAG = FragmentManager.TAG;

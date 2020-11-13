@@ -25,7 +25,8 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.R;
+
+import com.solarexsoft.fragment.R;
 
 class FragmentLayoutInflaterFactory implements LayoutInflater.Factory2 {
     private static final String TAG = FragmentManager.TAG;

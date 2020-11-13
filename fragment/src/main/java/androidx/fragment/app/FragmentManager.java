@@ -62,12 +62,13 @@ import androidx.annotation.RestrictTo;
 import androidx.annotation.StringRes;
 import androidx.collection.ArraySet;
 import androidx.core.os.CancellationSignal;
-import androidx.fragment.R;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleEventObserver;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.ViewModelStore;
 import androidx.lifecycle.ViewModelStoreOwner;
+
+import com.solarexsoft.fragment.R;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

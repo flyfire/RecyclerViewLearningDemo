@@ -32,7 +32,7 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import androidx.fragment.R;
+import com.solarexsoft.fragment.R;
 
 import java.util.ArrayList;
 /**
