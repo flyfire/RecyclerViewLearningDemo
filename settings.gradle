@@ -1,5 +1,5 @@
 rootProject.name='RecyclerViewLearningDemo'
 include ':app'
 include ':recyclerview'
-include ':viewpager2'
-include ':fragment'
+//include ':viewpager2'
+//include ':fragment'
